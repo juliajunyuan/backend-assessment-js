@@ -12,5 +12,9 @@
     "start": "wrangler dev --local",
     "deploy": "wrangler publish",
     "test": "vitest"
+  },
+  "dependencies": {
+    "@cloudflare/itty-router-openapi": "^0.1.11",
+    "@planetscale/database": "^1.11.0"
   }
 }
